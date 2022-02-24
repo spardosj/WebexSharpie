@@ -1,0 +1,16 @@
+PODS:
+  - WebexSDK (3.3.0)
+
+DEPENDENCIES:
+  - WebexSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - WebexSDK
+
+SPEC CHECKSUMS:
+  WebexSDK: ab1317a91eb99a033dd4ed6a5dd43431c1e4bbe2
+
+PODFILE CHECKSUM: 826eee011971ae1d001f053afcb036ad18836bcd
+
+COCOAPODS: 1.11.2
