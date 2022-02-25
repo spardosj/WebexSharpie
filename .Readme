@@ -1,0 +1,11 @@
+comando per sharpie usato : 
+    sharpie bind -o WebexSDK  -framework ./Pods/WebexSDK/Frameworks/WebexSDK.framework -sdk iphoneos15.2
+    xcode : last
+    sharpie: last 
+
+o anche:
+    sharpie bind -output WebexSDK -sdk iphoneos15.2 ./Pods/WebexSDK/Frameworks/WebexSDK.framework/Headers/WebexSDK.h 
+    -scope ./Pods/WebexSDK/Frameworks/WebexSDK.framework/Headers -c -F -v
+
+    ma va in errore , sia usando *.h , sia non usando il flag "framework", 
+    anche usando -Ibuild/Headers per cercare di fargli trovare le import
